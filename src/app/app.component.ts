@@ -9,4 +9,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'jids-portfolio';
+  dpLink: string = 'assets/images/dp.jpg';
 }
