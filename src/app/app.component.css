@@ -35,7 +35,8 @@
 
   @font-face {
     font-family: 'medium';
-    src: url('https://github.com/jids99/jids-portfolio/blob/master/src/assets/fonts/medium.otf') format('opentype');
+    /* src: url('https://github.com/jids99/jids-portfolio/blob/master/src/assets/fonts/medium.otf') format('opentype'); */
+    src: url('https://github.com/jids99/jids-portfolio/blob/gh-pages/assets/fonts/medium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
