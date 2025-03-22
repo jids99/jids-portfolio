@@ -1,12 +1,16 @@
 
-
-<style>
-
-</style>
-
 <main class="main">
   <div class="content">
-    <h1>THIS IS A PORTFOLIO</h1>
+    <div class="titleContainer">
+      <h1>
+        <span class="word"> Hi, </span>
+        <span class="word word--delay">This is <span class="name"> Israel </span></span>
+      </h1>
+      <h2 class="slideFromTop word--delay">
+        I make  
+        <span [class]="animateClass"> {{word1Value}} </span>
+      </h2>
+    </div>
     <img [src]="dpLink" alt="dp" class="dp" />
   </div>
 </main>
